@@ -9,4 +9,5 @@ int main()
     myclass obj;
     obj.get_value(a, b);
     obj.display();
+    cout << "A small change has been added to the file" << endl;
 }
