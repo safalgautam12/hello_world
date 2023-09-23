@@ -10,4 +10,12 @@ int main()
     obj.get_value(a, b);
     obj.display();
     cout << "A small change has been added to the file" << endl;
+    myclass obj2;
+    obj2.get_value(2, 3);
+
+    cout << "The value after adding two vectors is" << endl;
+    myclass obj3 = obj.add(obj2);
+    obj3.display();
+    cout << "We added a branch called new_changes to add 'add' function " << endl;
+    cout << "We created emergency_fix to fix the error without disturubing master branch and new_changes branch\n";
 }
