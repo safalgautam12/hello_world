@@ -5,3 +5,10 @@ void myclass::display()
 {
     cout << x << "\t" << y << endl;
 }
+myclass myclass::add(const myclass &obj1)
+{
+    myclass temp;
+    temp.x = x + obj1.x;
+    temp.y = y + obj1.y;
+    return temp;
+}
