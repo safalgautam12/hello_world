@@ -10,3 +10,8 @@ istream &operator>>(istream &input, myclass &another)
     input >> another.x >> another.y;
     return input;
 }
+ostream &operator<<(ostream &output, myclass &another)
+{
+    output << another.x << another.y << endl;
+    return output;
+}
