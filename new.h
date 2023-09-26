@@ -14,4 +14,5 @@ public:
 
     void display(void);
     myclass add(const myclass &obj1);
+    friend istream &operator>>(istream &input, myclass &another);
 };

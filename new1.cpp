@@ -3,11 +3,14 @@
 using namespace std;
 int main()
 {
-    int a, b;
-    cout << "Enter the vlaue of a and b\n";
-    cin >> a >> b;
+    // int a, b;
+    // cout << "Enter the vlaue of a and b\n";
+    // cin >> a >> b;
+    // myclass obj;
+    // obj.get_value(a, b);
+    cout << "Enter the vlaues of the first object\n";
     myclass obj;
-    obj.get_value(a, b);
+    cin >> obj;
     obj.display();
     cout << "A small change has been added to the file" << endl;
     myclass obj2;
