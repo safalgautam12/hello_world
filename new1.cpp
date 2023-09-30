@@ -19,8 +19,12 @@ int main()
 
     cout << "The value after adding two vectors is" << endl;
     myclass obj3 = obj.add(obj2);
+<<<<<<< HEAD
     // obj3.display();
     cout << obj3;
     cout << "We added a branch called new_changes to add 'add' function " << endl;
     cout << "We created emergency_fix to fix the error without disturubing master branch and new_changes branch\n";
+=======
+    obj3.display();
+>>>>>>> new_changes
 }
