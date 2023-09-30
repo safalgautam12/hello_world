@@ -26,5 +26,6 @@ int main()
     cout << "We created emergency_fix to fix the error without disturubing master branch and new_changes branch\n";
 =======
     obj3.display();
+    cout<<"We are editing the files now\n";
 >>>>>>> new_changes
 }
